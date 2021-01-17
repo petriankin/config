@@ -7,8 +7,8 @@ eureka:
     health-check-url-path: /actuator/health
     status-page-url-path: /actuator/info
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    register-with-eureka: false
+    fetch-registry: false
 logging:
   level:
     com.netflix.discovery: 'ON'
